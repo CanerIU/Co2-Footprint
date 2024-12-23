@@ -1,0 +1,98 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  height: 50px;
+}
+
+.local-menu {
+  text-align: left; 
+}
+
+html[dir="rtl"] .local-menu {
+  text-align: right; 
+}
+
+@media (max-width: 768px) {
+  .local-menu {
+    text-align: center; 
+  }
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.language-switcher select {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+#co2Table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#co2Table th, #co2Table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#co2Table th {
+  cursor: pointer; 
+}
+
+#co2Table th:hover {
+  background-color: #f1f1f1; 
+}
+
+#co2Table tr:hover {
+  background-color: #f9f9f9; 
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  min-width: 150px;
+}
+
+.dropdown-menu .dropdown-item {
+  cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-menu .dropdown-item.active {
+  background-color: #d1d1d1;
+}
+
+
+@media (max-width: 768px) {
+  .dropdown {
+    position: relative;
+    float: none;
+  }
+
+  .language-switcher {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
